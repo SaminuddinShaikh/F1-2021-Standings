@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Standings</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/f1-standing-style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+
+    <div class="nav-custom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/fi-logo.png" alt="" width="100" class="d-inline-block">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="f1-teams.html"><span
+                                    class="text-light">Teams</span></a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><span
+                                    class="text-light">Home</span></a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="text-light">Standing's</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#driver-standing">Driver</a></li>
+                                <li><a class="dropdown-item" href="#Constructor-Standing">Constructor</a></li>
+                                <li><a class="dropdown-item" href="#overtake">Overtake Award</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+
+    </div>
+
+    <section id="driver-standing" class="text-light two-section">
+
+        <header class=" text-light header-coustm">
+            <h5 class="fw-bold">2021 Driver Standing</h5>
+        </header>
+        <div class="driver px-5 bg-dark text-light">
+            <div class="row">
+                <div class="col-sm-4 ">
+                    <div class="sec-cover p-5 ">
+                        <div class="first-card">
+
+                            <div class="pos-points p-3  border-bottom">
+                                <h6 class="fw-bold">1st</h6>
+                                <h6 class="fw-bold">395.5<br>PTS</h6>
+                            </div>
+                            <div class="pos-points p-3 fw-bold">
+                                <h6 class="fw-bold"><span class="text-muted">MAX</span><br>VERSTAPPEN</h6>
+                                <img src="img/max-country-flag.png" class="flag-coustm" alt="">
+                            </div>
+                            <img src="img/Max-Verstappen.png" class="max-img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-12">
+                    <div class="sec-list p-5 ">
+                        <div class="table-window">
+                            <table class="table table-dark table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">POS</th>
+                                        <th scope="col">DRIVER</th>
+                                        <th scope="col">NATIONALITY</th>
+                                        <th scope="col">CAR</th>
+                                        <th scope="col">PTS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>VER</td>
+                                        <td>NED</td>
+                                        <td>RED BULL RACING HONDA</td>
+                                        <td>395.5</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>HAM</td>
+                                        <td>GBR</td>
+                                        <td>MERCEDES</td>
+                                        <td>387.5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>BOT</td>
+                                        <td>FIN</td>
+                                        <td>MERCEDES</td>
+                                        <td>226</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>PER</td>
+                                        <td>MEX</td>
+                                        <td>RED BULL RACING HONDA</td>
+                                        <td>190</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>SAI</td>
+                                        <td>ESP</td>
+                                        <td>FERRARI</td>
+                                        <td>164.5</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>NOR</td>
+                                        <td>GBR</td>
+                                        <td>MCLAREN MERCEDES</td>
+                                        <td>160</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>LEC</td>
+                                        <td>MON</td>
+                                        <td>FERRARI</td>
+                                        <td>159</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>RIC</td>
+                                        <td>AUS</td>
+                                        <td>MCLAREN MERCEDES</td>
+                                        <td>115</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">9</th>
+                                        <td>GAS</td>
+                                        <td>FRA</td>
+                                        <td>ALPHATAURI HONDA</td>
+                                        <td>110</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>ALO</td>
+                                        <td>ESP</td>
+                                        <td>ALPINE RENAULT</td>
+                                        <td>81</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>OCO</td>
+                                        <td>FRA</td>
+                                        <td>ALPINE RENAULT</td>
+                                        <td>74</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>VET</td>
+                                        <td>GER</td>
+                                        <td>ASTON MARTIN MERCEDES</td>
+                                        <td>43</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>STR</td>
+                                        <td>CAN</td>
+                                        <td>ASTON MARTIN MERCEDES</td>
+                                        <td>34</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">14</th>
+                                        <td>TSU</td>
+                                        <td>JPN</td>
+                                        <td>ALPHATAURI HONDA</td>
+                                        <td>32</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">15</th>
+                                        <td>RUS</td>
+                                        <td>GBR</td>
+                                        <td>WILLIAMS MERCEDES</td>
+                                        <td>16</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">16</th>
+                                        <td>RAI</td>
+                                        <td>FIN</td>
+                                        <td>ALFA ROMEO RACING FERRARI</td>
+                                        <td>10</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17</th>
+                                        <td>LAT</td>
+                                        <td>CAN</td>
+                                        <td>WILLIAMS MERCEDES</td>
+                                        <td>7</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">18</th>
+                                        <td>GIO</td>
+                                        <td>ITA</td>
+                                        <td>ALFA ROMEO RACING FERRARI</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">19</th>
+                                        <td>MSC</td>
+                                        <td>GER</td>
+                                        <td>HAAS FERRARI</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">20</th>
+                                        <td>KUB</td>
+                                        <td>POL</td>
+                                        <td>ALFA ROMEO RACING FERRARI</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">21</th>
+                                        <td>MAZ</td>
+                                        <td>RAF</td>
+                                        <td>HAAS FERRARI</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Constructor-Standing" class="text-light">
+
+        <header class=" text-light header-coustm">
+            <h5 class="fw-bold">2021 Constructor Standing</h5>
+        </header>
+        <div class="driver px-5 bg-dark text-light">
+            <div class="row">
+                <div class="col-sm-4 ">
+                    <div class="sec-cover p-5">
+                        <div class="first-card">
+                            <div class="pos-points p-3 py-4 fw-bold border-bottom">
+                                <h6 class="fw-bold">1st</h6>
+                                <h6 class="fw-bold">613.5<br>PTS</h6>
+                            </div>
+                            <div class="pos-points p-3 py-4 fw-bold border-bottom">
+                                <h6 class="fw-bold">Mercedes</h6>
+                                <img src="img/merce-logo.png" class="flag-coustm" alt="">
+                            </div>
+                            <div class="pos-points p-3  py-5 fw-bold border-bottom">
+                                <h6 class="fw-bold"><span class="text-muted">Lewis </span>HAMILTON</h6>
+                                <h6 class="fw-bold"><span class="text-muted">Valtteri </span> BOTTAS </h6>
+                            </div>
+                            <img src="img/mercedes car.png" class="merce-logo-img pt-5" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="sec-list p-5 ">
+                        <div class="table-window">
+                            <table class="table table-dark table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">POS</th>
+                                        <th scope="col">TEAM</th>
+                                        <th scope="col">PTS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>MERCEDES</td>
+                                        <td>613.5</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>RED BULL RACING HONDA</td>
+                                        <td>585.5</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>FERRARI</td>
+                                        <td>323.5</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>MCLAREN MERCEDES</td>
+                                        <td>275</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>ALPINE RENAULT</td>
+                                        <td>155</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>ALPHATAURI HONDA</td>
+                                        <td>142</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>ASTON MARTIN MERCEDES</td>
+                                        <td>77</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>WILLIAMS MERCEDES</td>
+                                        <td>23</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">9</th>
+                                        <td>ALFA ROMEO RACING FERRARI</td>
+                                        <td>13</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>HAAS FERRARI</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="overtake">
+        <header class=" text-light header-coustm">
+            <h5 class="fw-bold">2021 Overtake Awards</h5>
+        </header>
+        <div class="img-fit">
+            <img src="img/overtake.jpg" class="cover p-5" alt="">
+        </div>
+    </section>
+
+    <footer class=" text-center text-light">
+        <div class="container">
+            <div class="d-flex justify-content-around">
+                <P class=" lead">Copyright &copy; 2022 FIA Formula 1</P>
+                <a href="#" class="">
+                    <i class=" bi text-muted bi-arrow-up-circle h1"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
